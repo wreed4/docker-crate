@@ -1,0 +1,7 @@
+test:
+  image: 'ubuntu'
+  entrypoint: '/bin/bash'
+  env:
+    TEST: 'did it work?'
+  tty: True
+  interactive: True
